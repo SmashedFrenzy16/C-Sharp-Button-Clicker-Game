@@ -21,10 +21,10 @@ namespace ButtonClickerGame
 
         private void buttonClick_Click(object sender, EventArgs e)
         {
+        
+            clicks++;
 
             valueLabel.Text = clicks.ToString();
-
-            clicks++;
         }
     }
 }
